@@ -13,7 +13,7 @@ import com.facebook.react.modules.intent.IntentModule;
 import com.facebook.react.modules.location.LocationModule;
 //import com.facebook.react.modules.netinfo.NetInfoModule;
 import com.facebook.react.modules.network.NetworkingModule;
-import com.facebook.react.modules.storage.AsyncStorageModule;
+//import com.facebook.react.modules.storage.AsyncStorageModule;
 //import com.facebook.react.modules.toast.ToastModule;
 import com.facebook.react.modules.websocket.WebSocketModule;
 import com.facebook.react.uimanager.ViewManager;
@@ -43,7 +43,7 @@ public class MainReactPackage implements ReactPackage {
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
         return Arrays.<NativeModule>asList(
-                new AsyncStorageModule(reactContext),
+//                new AsyncStorageModule(reactContext),
 //                new ClipboardModule(reactContext),
                 new FrescoModule(reactContext),
                 new IntentModule(reactContext),
